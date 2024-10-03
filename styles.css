@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     margin: 0;
     padding: 0;
@@ -30,17 +30,17 @@ body {
     max-width: 600px;
     margin: 0 auto 40px;
     font-size: 18px;
-    font-family: "DM Serif Display", serif; /* Apply the DM Serif Display font */
-    font-style: normal; /* Ensure the description text is normal (not italic) */
+    font-family: "DM Serif Display", serif; 
+    font-style: normal; 
 }
 
-/* New class for specific text to ensure it is not italic */
+
 .normal-text {
-    font-family: "DM Serif Display", serif; /* Use the same font */
-    font-style: normal !important; /* Ensure it's not italic */
+    font-family: "DM Serif Display", serif; 
+    font-style: normal !important; 
 }
 
-/* Form Styles */
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -59,8 +59,7 @@ body {
     border-radius: 5px;
     background-color: #fff;
     font-size: 16px;
-    font-family: "DM Serif Display", serif; /* Apply the DM Serif Display font */
-    font-style: normal; /* Regular font style */
+    font-family: "DM Serif Display", serif; 
     color: #333;
 }
 
@@ -72,19 +71,19 @@ body {
     background-color: #fff;
     font-size: 16px;
     margin-bottom: 20px;
-    font-family: "DM Serif Display", serif; /* Apply the DM Serif Display font */
-    font-style: normal; /* Regular font style */
+    font-family: "DM Serif Display", serif; 
+    font-style: normal; 
     color: #333;
 }
 
 .input-field::placeholder,
 .textarea-field::placeholder {
-    font-family: "DM Serif Display", serif; /* Apply the DM Serif Display font to placeholder */
-    font-style: italic; /* Italic for placeholder text */
-    color: #888; /* Placeholder color */
+    font-family: "DM Serif Display", serif; 
+    font-style: italic; 
+    color: #888; 
 }
 
-/* Style for the Submit button */
+
 .submit-btn {
     padding: 10px 20px;
     background-color: #333;
@@ -93,23 +92,23 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    display: inline-flex; /* Use inline-flex for centering */
-    align-items: center; /* Center align items vertically */
-    justify-content: center; /* Center align items horizontally */
-    margin: 20px auto; /* Center the button horizontally and add vertical margin */
-    font-family: "DM Serif Display", serif; /* Apply DM Serif Display font */
-    transition: background-color 0.3s; /* Add transition for hover effect */
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px auto; 
+    font-family: "DM Serif Display", serif; 
+    transition: background-color 0.3s; 
 }
 
 .submit-btn:hover {
-    background-color: #555; /* Darker background on hover */
+    background-color: #555; 
 }
 
-/* Style for the submit icon */
+
 .submit-icon {
     width: 20px;
     height: auto;
-    margin-left: 10px; /* Add some space between the text and icon */
+    margin-left: 10px; 
 }
 .button-container {
   display: flex;
@@ -137,7 +136,7 @@ body {
 .contact-btn:hover {
   background-color: #555;
 }
-/* Style for the contact links */
+
 .contact-link {
   display: inline-flex;
   align-items: center;
@@ -161,16 +160,16 @@ body {
   width: 24px;
   height: auto;
 }
-/* Style for the button container to center the buttons and position them 2cm below the submit button */
+
 .button-container {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem; /* Adjust the space between buttons */
-    margin-top: 2cm; /* Adds space of 2cm below the Submit button */
-  }
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem; 
+  margin-top: 0.5rem; 
+}
+
   
-  /* Style for the contact links */
-  .contact-link {
+.contact-link {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -185,15 +184,23 @@ body {
     text-align: center;
   }
   
-  /* Hover effect for contact links */
+ 
   .contact-link:hover {
     background-color: #faf9f5;
     border-color: #333;
   }
   
-  /* Style for the contact icons */
+
   .contact-icon {
     width: 24px;
     height: auto;
   }
-  
+  .contact-section {
+    width: 100%;
+    max-width: 600px;          
+    padding: 50px 12%;
+    background: url('./images/footer-bg-color.png') no-repeat center;
+    background-size: 90% auto;
+    text-align: center;
+    margin: auto;              
+}
